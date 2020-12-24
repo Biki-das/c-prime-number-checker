@@ -1,0 +1,50 @@
+#include <iostream>
+
+using namespace std;
+
+
+int main(){
+int n;
+bool isprime = true; //  we first condition a number as it is prime.this is very important
+cout<<"enter your number";
+cin >> n;
+
+
+for(int i = 2; i < n;i ++){
+
+if(i % i == 0){
+  isprime = false;
+  cout<<"is not a prime number";
+  break;
+  
+}
+
+if(isprime){
+  cout<<"is a  prime number ";
+  break;
+  
+}
+
+ 
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+return 0;
+
+}
